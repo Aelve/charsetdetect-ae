@@ -87,7 +87,10 @@ Library
           else
             extra-libraries:    stdc++-6 gcc_s_dw2-1
         else
-          extra-libraries:      stdc++
+          if os(darwin)
+            extra-libraries: c++
+          else
+            extra-libraries: stdc++
 
         Include-Dirs:           libcharsetdetect
                                 libcharsetdetect/mozilla/extensions/universalchardet/src/base
