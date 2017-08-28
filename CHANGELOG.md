@@ -1,3 +1,7 @@
+# 1.1.0.3
+
+* Fixed compilation on macOS, thanks to @domenkozar.
+
 # 1.1.0.2
 
 * Fixed compilation with GHC 8 on Windows, thanks to @RyanGlScott.
