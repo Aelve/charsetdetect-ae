@@ -1,3 +1,7 @@
+# 1.1.0.4
+
+* Fixed compilation on ARM processors, thanks to @egrimley.
+
 # 1.1.0.3
 
 * Fixed compilation on macOS, thanks to @domenkozar.
